@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Carter+One&family=Caveat:wght@400..700&family=Cinzel:wght@400..900&family=Dancing+Script:wght@700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div {
+  font-size: 20px;
+  background-image: url("/public/react-banner.png");
+  background-size: cover;   /* pura cover kar de */
+  background-position: center; /* center me dikhaye */
+  height: 100vh;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+
+}
+.under{
+    width: 40%;
+    height: 40vh;
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 40px;
+    margin-top: 12rem;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(183, 171, 230);
+    border-radius: 10px;
+  font-family: "Edu AU VIC WA NT Arrows", cursive;
+  color: white;
+
+}
+.btn{
+    display: flex;
+    gap: 10px;
+            /* margin-right: 10rem; */
+            position: relative;
+            left: 6rem;
+            top: 2rem;
+              font-family: "Edu AU VIC WA NT Arrows", cursive;
+              color: aliceblue;
+
+}
+button{
+    padding: 10px 20px;
+    background: transparent;
+        border: 1px solid rgb(183, 171, 230);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: "Edu AU VIC WA NT Arrows", cursive;
+/* font-size: 20px; */
+    color: white;
+}
